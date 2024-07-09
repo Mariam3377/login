@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK MARK</title>
+    <!-- font style -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- css style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <section id="login" class="bg-body-secondary vh-100 overflow-hidden">
+   <div class="container py-5 align-items-center mt-5">
+    <h1 class="text-center pb-2">Smart login</h1>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="idName" placeholder="name@example.com">
+        <label for="floatingInput">Enter your Name </label>
+      </div>
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="idEmail" placeholder="name@example.com">
+        <label for="floatingInput">Enter your Email </label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="idPasword" placeholder="Password">
+        <label for="floatingPassword">Enter your Password</label>
+      </div>
+      <div id="message"></div>
+      <button class="btn btn-transparent form-control mt-2 " onclick="add()">SignUp</button>
+
+      <p class="pt-3 text-center">Don’t have an account? <a href="index.html" class="text-black-50"> Sign in</a></p>
+   </div>
+   
+  </section>
+
+
+    <!-- js --> 
+     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>
